@@ -1,0 +1,139 @@
+
+
+.container{
+    display:inline-block
+    
+   
+}
+
+.flag, .player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.flag {
+    background-color: green;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    
+} 
+
+
+
+.white-rotate-blue{
+    border-bottom: 30px solid rgb(255, 252, 252);
+    border-right: 60px solid transparent;
+    border-left: 15px solid transparent;
+    width: 285px;
+    transform: rotate(154deg);
+
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    
+    
+}
+
+
+.white-blue{
+    border-bottom: 33px solid white;
+    width: 421px;
+    position: absolute;
+    left: 379px;
+    bottom: 124px;
+}
+
+
+.blue{
+    border-bottom: 125px solid blue;
+    border-left: 250px solid transparent;
+    width: 450px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+
+.white-rotate-red{
+    border-bottom: 30px solid rgb(255, 252, 252);
+    border-right: 15px solid transparent;
+    border-left: 60px solid transparent;
+    width: 285px;
+    transform: rotate(26deg);
+
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    
+    
+}
+
+.white-red{
+    border-bottom: 33px solid white;
+    width: 421px;
+    position: absolute;
+    left: 379px;
+    top: 124px;
+}
+
+.red {
+    border-top: 125px solid red;
+    border-left: 250px solid transparent;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.yellow-1{
+    border-left: 30px solid yellow;
+    height: 224px;
+    border-top: 54px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: rotate(115.5deg);
+
+    position: absolute;
+    top: 5.5px;
+    left: 111px;
+    
+}
+
+.yellow-2{
+    border-right: 30px solid yellow;
+    height: 224px;
+    border-top: 54px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: rotate(65deg);
+
+    position: absolute;
+    bottom: 5px;
+    left: 111px;
+    
+}
+.black {
+    border-left: 200px solid black;
+    border-top: 95px solid transparent;
+    border-bottom: 95px solid transparent;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+}
+
+
+.player{
+    background: #86caf7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+}
+
+html{
+    background: #86caf7;
+}
